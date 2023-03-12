@@ -18,10 +18,10 @@ export default function Home() {
         <nav>  <div>
         <Link href="/">Home</Link>
       </div></nav>
-      <div>Hello world</div>
-      <div class="text-red-500">Léonard</div>
-      <div class="text-green-500">Bénédyczak</div>
-      <div class="text-center underline font-bold">SIO SLAM</div>
+      <div className="titre">Hello world</div>
+      <div className="text-red-500">Léonard</div>
+      <div className="text-green-500">Bénédyczak</div>
+      <div className="text-center underline font-bold">SIO SLAM</div>
      
       </main>
     </>
