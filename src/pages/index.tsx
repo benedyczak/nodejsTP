@@ -17,7 +17,8 @@ export default function Home() {
       <main>
         <div>
         <nav><div>
-        <Link href="/qui">QUI</Link>
+        <Link href="/qui">QUI</Link><br />
+        <Link href="/tp4">POKEMOOOOOOON</Link> 
         </div></nav>
           <p>
             Get started by editing&nbsp;
