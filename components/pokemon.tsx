@@ -19,6 +19,6 @@ export const Pokemon = ({id}:PokemonProps) => {
             <button onClick={handleButtonClick}>change position</button>
 
      </div>
-   
+     
   );
 };
