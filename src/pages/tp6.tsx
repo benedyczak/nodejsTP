@@ -6,6 +6,7 @@ export default function Tp6() {
 
   useEffect(() => {
     async function fetchData() {
+      {/*Appel de l'API*/}
       const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=9999');
       const json = await response.json();
       setData(json);
@@ -25,6 +26,7 @@ export default function Tp6() {
             const imageUrl = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemonNumber}.png`;
             
             return (
+            /* Utilisation de la donnée reçu de l'API */
               <li key={pokemon.name}>
                 <p>{pokemon.name}</p>
                 <Pokemon id={pokemonNumber}/>
